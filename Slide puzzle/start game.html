@@ -1,0 +1,64 @@
+<html>
+    <head>
+    <title>MARVEL PUZZLE</title>
+    <link href="style.css" type="text/css" rel="stylesheet">
+    <script language="JavaScript" src="eightpuzzle.js"></script> 
+    </head>
+	
+    <body onLoad="on();">
+    	<header>
+	<button id="btn1" onClick="themeNumbers();" >Number Puzzle</button>
+	<button id="btn2" onClick="themeImage();" >Image Puzzle</button>
+	<div id="welcome"></div>
+	<table>
+    <tr>
+    <td>
+    <table id="table1">
+		<tr>
+			<td><img src="" id="im1" onClick="imageClicked('im1',1)" /></td>
+			<td><img src="" id="im2" onClick="imageClicked('im2',2)" /></td>
+			<td><img src="" id="im3" onClick="imageClicked('im3',3)" /></td>
+		</tr>
+		<tr>
+			<td><img src="" id="im4" onClick="imageClicked('im4',4)" /></td>
+			<td><img src="" id="im5" onClick="imageClicked('im5',5)" /></td>
+			<td><img src="" id="im6" onClick="imageClicked('im6',6)" /></td>
+		</tr>
+		<tr>
+			<td><img src="" id="im7" onClick="imageClicked('im7',7)" /></td>
+			<td><img src="" id="im8" onClick="imageClicked('im8',8)" /></td>
+			<td><img src="" id="im9" onClick="imageClicked('im9',9)" /></td>
+		</tr>
+		</table>
+		<font id="pw">PUZZLE VIEW</font>
+		
+
+		</td>
+		<td>
+		<table id="table2">
+		<tr>
+			<td><img src="" id="iim1"  /></td>
+			<td><img src="" id="iim2" /></td>
+			<td><img src="" id="iim3" /></td>
+		</tr>
+		<tr>
+			<td><img src="" id="iim4" /></td>
+			<td><img src="" id="iim5" /></td>
+			<td><img src="" id="iim6"  /></td>
+		</tr>
+		<tr>
+			<td><img src="" id="iim7"  /></td>
+			<td><img src="" id="iim8" /></td>
+			<td><img src="" id="iim9" /></td>
+		</tr>
+    </table>
+    <font id="rw">REAL VIEW</font>
+    </td>
+    </tr>
+    </table>
+
+<br/>
+<div id="error" class="a" ></div><br/>
+    </header> 
+</body>
+</html>

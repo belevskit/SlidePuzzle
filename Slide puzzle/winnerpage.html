@@ -1,0 +1,58 @@
+<html>
+<style>
+
+body {
+	background-image: url(winner2.jpg);
+	height: 96vh;
+	background-size: cover;	
+}
+#won {
+	float: left;
+	margin-top: 400px;
+	margin-left: 50px;
+	border: 3px solid #fff;
+	padding: 7px 15px;
+	color: #FFFF;
+	text-decoration: none;
+}
+#play {
+	float: left;
+	margin-top: 400px;
+	margin-left: 850px;
+	border: 3px solid #fff;
+	padding: 7px 15px;
+	color: #FFFF;
+	text-decoration: none;
+}
+#begin {
+	width: 120px;
+	float: right;
+	margin-right: 70px;
+	border: 2px solid #0099CC;
+	padding: 7px 15px;
+	color: #0099CC;
+	text-decoration: none;
+	background: transparent;
+	border-radius: 6px;
+	transition: 0.3s;
+}
+#begin:hover {
+      background-color: #008CBA;
+      color: white;
+  }
+</style>
+
+<script>
+	function begin() {
+		window.location="eightpuzzle.html";	
+	}
+	</script>
+
+<body>
+
+<h1 id="won">You Won <br> The Game.</h1>
+<h1 id="play"> To Play <br> Again Press </h1>
+<button id="begin" onClick="begin();" >HERE!</button>
+
+</body>
+</html>
